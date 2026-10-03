@@ -1,0 +1,6 @@
+{
+  "name": "MobiArmour",
+  "description": "Android Security & Device Hardening Platform. 6-layer non-root security suite with posture monitoring, phishing detection, permission auditing, network filtering, and lost-device emergency actions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

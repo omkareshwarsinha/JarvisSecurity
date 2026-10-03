@@ -1,0 +1,18 @@
+package com.example.jarvis.data.db.entities
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "scan_results")
+data class ScanResultEntity(
+    @PrimaryKey(autoGenerate = true)
+    val id: Long = 0,
+    val timestamp: Long,
+    val overallScore: Int,
+    val criticalCount: Int,
+    val warningCount: Int,
+    val infoCount: Int,
+    val verifiedCount: Int,
+    val totalAppsScanned: Int,
+    val summaryText: String
+)
